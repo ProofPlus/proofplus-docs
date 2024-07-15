@@ -6,15 +6,13 @@ category: ProofPlus
 layout: post
 ---
 
-## Orchestrator Network
-
-The Orchestrator network - an on-chain protocol - is responsible for conflict resolution and orchestration of proof requests.
+The Orchestrator network - an on-chain protocol - is responsible for orchestration of proof requests and conflict resolution.
 
 It will delegate proof generation request tasks, binding a task to a prover. Instead of relying on the reputation of the prover, it will rank provers based on objective metrics, such as proof generation success rate (liveness) and proof generation time.
 
 In order for provers to participate in the protocol, they will need to register by depositing pre-defined collateral, serving as stake, and report their capabilities and public endpoint. Based on the self-reported proof generation time, the protocol will expect given tasks to be completed on time; otherwise, the prover will be subject to slashing conditions.
 
-### DTO
+## DTO
 
 The Orchestrator Network keeps track of task structs with the following structure:
 

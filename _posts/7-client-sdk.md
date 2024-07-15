@@ -8,7 +8,7 @@ layout: post
 
 ## ProofPlus Client SDK
 
-A lightweight SDK module is implemented for the User to serve as a client to use the protocol - `ProofPlusProver` - that:
+An SDK module is implemented for the User that serves as a client to the protocol - `ProofPlusProver` - that:
 
 - Initiates an on-chain request to the Orchestator network.
 - listens for an event containing the `endpoint` of the server of the Prover tasked with the proof generation
